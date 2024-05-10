@@ -44,7 +44,7 @@ int  main(void)
     return 0;
 }
 ```
-4. Compile your program with the get_next_line.c file:
+4. Compile your program with the file get_next_line.c and the file get_next_line_utils.c:
 ```
 gcc -o my_program main.c get_next_line.c get_next_line_utils.c 
 ```
