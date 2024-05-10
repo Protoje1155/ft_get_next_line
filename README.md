@@ -1,4 +1,4 @@
-# ft_get_next_line Function
+# get_next_line Function
 ## Description
 - The ft_get_next_line function is designed to read text from a given file descriptor. 
 - This project aims to deepen understanding of file I/O operations in C and improve proficiency in managing file descriptors and buffer manipulation.
