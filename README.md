@@ -34,14 +34,15 @@ char *get_next_line(int fd);
 int  main(void)
 {
         int fd = open("example.txt", O_RDONLY);
-        char *line;
+        char *line = NULL;
 
-        while ((line = get_next_line(fd)) != NULL) {
-        printf("%s", line);
-        free(line);
-    }
-    close(fd);
-    return 0;
+        while ((line = get_next_line(fd)) != NULL)
+        {
+                printf("%s", line);
+                free(line);
+        }
+        close(fd);
+        return (0);
 }
 ```
 4. Compile your program with the file get_next_line.c and the file get_next_line_utils.c:
